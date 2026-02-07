@@ -8,7 +8,9 @@
 周易八卦，陰陽五行，幹支，四柱八字排盤，紫微鬥數，奇門遁甲，七政四余集大成者結合，數十年周易研究，結合了紫薇運勢，刑沖關系，
 神煞，奇門遁甲，七政四余排盤，大六壬等多種中國古老周易占蔔算法，結合計算機知識，在網頁可以時時展示出來，對真正的占蔔師，周易愛好者非常有益
 
-<img width="550" alt="微信图片_20250315113404" src="https://github.com/user-attachments/assets/61accf0b-d0e4-4b99-97d8-a5cf903cabdb" />
+<img width="638" height="355" alt="微信图片_20260207202225" src="https://github.com/user-attachments/assets/e04aaed4-1a17-49c8-8ead-0ada632e78ae" />
+<img width="1247" height="668" alt="微信图片_20260207202257" src="https://github.com/user-attachments/assets/5e19f56e-04d4-4b37-a7fa-298dd5b71d36" />
+
 <img width="580" alt="1" src="https://github.com/user-attachments/assets/48025356-b9bd-42b8-b002-fd3e6fb9144c" />
 <img width="575" alt="10" src="https://github.com/user-attachments/assets/36cbf23e-873f-4818-bdc3-b598deb216c8" />
 
