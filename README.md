@@ -1,4 +1,5 @@
-🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
+🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
+👉 Bazi + Ziwei + Qimen Dunjia | API Ready | SaaS Ready | Commercial Use🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
 👉 Fortune Telling System | Astrology Engine | Divination Platform | Ready for Commercial Use
 # 🧮 周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
 
@@ -77,7 +78,19 @@ It can be used for:
 - 多体系融合预测 / 多體系融合預測 / Multi-method prediction system  
 - 支持扩展API接口 / 支援擴展API接口 / Extendable API support  
 - 模块化架构设计 / 模組化架構設計 / Modular architecture design
-- 
+## 📊 Example Result
+
+Input: 1990-01-01 12:00  
+Output: Bazi chart + destiny analysis
+## 🔗 API Example
+
+GET /calculate?birth=1990-01-01  
+
+Response:
+{
+  "bazi": "...",
+  "analysis": "..."
+}
 ## 📸 排盘界面预览
 
 | 八字排盘 | 紫微斗数 | 奇门遁甲 |
