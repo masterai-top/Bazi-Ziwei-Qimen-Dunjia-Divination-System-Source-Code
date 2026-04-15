@@ -1,3 +1,5 @@
+🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
+👉 Fortune Telling System | Astrology Engine | Divination Platform | Ready for Commercial Use
 # 🧮 周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
 
 > **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | 可商业运营**
@@ -42,7 +44,40 @@
 ├── SmsRecordService.java # 短信记录
 └── UserOrderService.java # 订单管理
 
+🔥 Chinese Metaphysics Platform | 命理计算平台 | 命理計算平台 | Bazi + Ziwei + Qimen Dunjia
+## 🧠 项目定位 / 專案定位 / What is this?
 
+本项目是一套完整的中国传统命理计算系统，包含：  
+本專案是一套完整的中國傳統命理計算系統，包含：  
+This project is a complete Chinese metaphysics calculation system, including:
+
+- 八字（四柱） / 八字（四柱） / Bazi (Four Pillars)  
+- 紫微斗数 / 紫微斗數 / Ziwei Doushu  
+- 奇门遁甲 / 奇門遁甲 / Qimen Dunjia  
+- 六壬 / 六壬 / Liu Ren  
+
+可用于：  
+可用於：  
+It can be used for:
+
+- 命理预测平台 / 命理預測平台 / Fortune telling platform  
+- 占星/玄学系统 / 占星/玄學系統 / Astrology system  
+- AI预测工具 / AI預測工具 / AI prediction tools  
+## 🏆 使用场景 / 使用場景 / Use Cases
+
+- 命理网站 / 命理網站 / Fortune telling website  
+- 命理APP / 命理App / Astrology mobile app  
+- AI玄学系统 / AI玄學系統 / AI metaphysics system  
+- 个人命运分析工具 / 個人命運分析工具 / Personal destiny analysis tools  
+- SaaS平台搭建 / SaaS平台搭建 / SaaS platform development
+## ⚙️ 技术价值 / 技術價值 / Features
+
+- 基于时间的推算引擎 / 基於時間的推算引擎 / Time-based calculation engine  
+- 传统命理算法实现 / 傳統命理算法實現 / Traditional metaphysics algorithms  
+- 多体系融合预测 / 多體系融合預測 / Multi-method prediction system  
+- 支持扩展API接口 / 支援擴展API接口 / Extendable API support  
+- 模块化架构设计 / 模組化架構設計 / Modular architecture design
+- 
 ## 📸 排盘界面预览
 
 | 八字排盘 | 紫微斗数 | 奇门遁甲 |
