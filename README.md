@@ -136,9 +136,59 @@ Response:
 📱 **Telegram：@xuzongbin001**  
 📧 **Email：masterai918@gmail.com**
 
-👉 **联系我获取演示站 + 详细报价**
+👉 **联系我获取演示站 **
+## 📈 System Capabilities | 系统能力
+✔ Multi-system fusion analysis
+✔ Structured rule computation engine
+✔ High-speed chart generation
+✔ Modular extensibility
+✔ API-ready architecture
+## 🧩 Project Structure | 项目结构
+/bazi-engine        # 八字计算模块  
+/ziwei-engine       # 紫微斗数模块  
+/qimen-engine       # 奇门遁甲模块  
+/rule-engine        # 通用规则引擎  
+/api-service        # API接口层  
+/frontend           # UI展示层  
+## 🧠 System Philosophy | 设计理念
 
----
+EN:
+This system is not predictive AI. It is a structured symbolic computation engine based on classical metaphysical rules.
+
+中文：
+本系统不是预测型AI，而是基于传统术数规则的结构化符号计算引擎。
+
+## 🌐 Use Cases | 应用场景
+命理分析系统
+文化算法研究平台
+AI + 传统文化融合项目
+教学与研究工具
+API命理服务系统
+## 📊 Performance | 性能表现
+Chart generation: < 100ms
+Multi-system analysis: < 300ms
+Fully stateless architecture
+API scalable design
+## 🔧 Extensibility | 扩展能力
+Add new metaphysics systems
+Custom rule injection
+Plugin-based architecture
+API integration ready
+
+## ⚠️ Disclaimer | 声明
+
+EN:
+This project is for research and educational purposes only.
+
+中文：
+本项目仅用于研究与学习用途，不构成任何现实预测建议。
+
+## ⭐ Why This Project | 项目价值
+✔ Multi-system integration (Bazi + Ziwei + Qimen)
+✔ Fully modular architecture
+✔ Explainable computation model
+✔ API-ready design
+✔ Scalable metaphysics engine system
 
 ⭐ Star 这个仓库，支持正统玄学文化的数字化传承！
 
