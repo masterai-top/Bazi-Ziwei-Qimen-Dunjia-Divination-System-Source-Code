@@ -93,21 +93,32 @@ Response:
 }
 ## 📸 排盘界面预览
 
-| 八字排盘 | 紫微斗数 | 奇门遁甲 |
-| :---: | :---: | :---: |
-<img width="638" height="355" alt="微信图片_20260207202225" src="https://github.com/user-attachments/assets/e04aaed4-1a17-49c8-8ead-0ada632e78ae" />
-<img width="1247" height="668" alt="微信图片_20260207202257" src="https://github.com/user-attachments/assets/5e19f56e-04d4-4b37-a7fa-298dd5b71d36" />
+## 📸 排盘界面真实截图 / Screenshots
 
-<img width="580" alt="1" src="https://github.com/user-attachments/assets/48025356-b9bd-42b8-b002-fd3e6fb9144c" />
-<img width="575" alt="10" src="https://github.com/user-attachments/assets/36cbf23e-873f-4818-bdc3-b598deb216c8" />
+![无极八字排盘](Screenshots/wujibazi.png)  
+**无极八字排盘界面 | Bazi Chart**
 
+![八字排盘](Screenshots/baizhipaipan.png)  
+**八字排盘界面 | Four Pillars Bazi**
 
-![屏幕截图 2024-10-29 114423](https://github.com/user-attachments/assets/93d0ffd3-4b22-4ebc-8d9f-2d0a91816e31)
-![屏幕截图 2024-10-29 114624](https://github.com/user-attachments/assets/be593f24-d2d6-4498-b102-733f71f76922)
-![屏幕截图 2024-10-29 114634](https://github.com/user-attachments/assets/f88cbc80-5b9e-4206-9bb0-fe9f4cefb3dd)
-![屏幕截图 2024-10-29 114720](https://github.com/user-attachments/assets/724266c5-8232-4ebb-ad2b-5bcdb5467409)
-![屏幕截图 2024-10-29 115251](https://github.com/user-attachments/assets/7e22419c-7894-4f53-ab38-74602c046376)
-![屏幕截图 2024-10-29 115350](https://github.com/user-attachments/assets/5688048b-7e8f-4e19-a5af-bcfce89596c7)
+![五行分析](Screenshots/wuxing.png)  
+**五行分析界面 | Five Elements Analysis**
+
+![流年运势](Screenshots/liunian.png)  
+**流年运势分析 | Annual Luck Analysis**
+
+![大六壬排盘](Screenshots/daliuren.png)  
+**大六壬排盘界面 | Da Liuren Chart**
+
+![七政四余排盘](Screenshots/qizhengsiyu.png)  
+**七政四余排盘界面 | Qizheng Siyü Chart**
+
+![七政四余2](Screenshots/qizheng2.png)  
+**七政四余详细排盘 | Qizheng Detailed**
+
+![综合排盘](Screenshots/paipan.png)  
+**综合排盘总览界面 | Overall Divination Chart**
+
 
 
 🎥 **演示站**：[联系我获取在线演示地址](https://t.me/xuzongbin001)
