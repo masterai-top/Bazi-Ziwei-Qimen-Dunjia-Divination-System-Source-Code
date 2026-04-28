@@ -1,9 +1,11 @@
+# 🧮 周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
+> **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | 可商业运营**
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready | SaaS Ready | Commercial Use🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
 👉 Fortune Telling System | Astrology Engine | Divination Platform | Ready for Commercial Use
-# 🧮 周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
 
-> **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | 可商业运营**
+
+
 
 [![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
 [![Platform](https://img.shields.io/badge/平台-Web%20%7C%20App-green)]()
@@ -91,7 +93,15 @@ Response:
   "bazi": "...",
   "analysis": "..."
 }
-## 📸 排盘界面预览
+## 🚀 产品演示视频（强烈推荐观看）
+
+[![周易命理实时排盘系统演示](https://img.youtube.com/vi/ZGz8zaASeVY/maxresdefault.jpg)](https://youtu.be/ZGz8zaASeVY)
+
+**周易命理实时排盘系统演示视频**  
+八字排盘 + 紫微斗数 + 奇门遁甲 + 七政四余 + 大六壬综合展示
+
+视频详细展示了输入生日后，系统实时生成多种传统命理排盘的完整流程，界面清晰，计算快速。
+点击上方图片直接跳转 YouTube 播放。
 
 ## 📸 排盘界面真实截图 / Screenshots
 
