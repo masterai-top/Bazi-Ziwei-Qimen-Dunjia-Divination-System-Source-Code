@@ -132,6 +132,22 @@ It can be used for:
 
 🎥 **演示站**：[联系我获取在线演示地址](https://t.me/xuzongbin001)
 
+## 🌐 Live Demo | 在线演示
+
+A fully runnable web-based demo is included in this repository.
+
+本仓库包含一个可直接运行的网页演示系统。
+
+👉 Click to access | 点击访问：
+
+🔗 [Launch Demo / 运行系统](./index.html)
+
+---
+
+📌 Note | 说明：
+This demo is for UI and system demonstration purposes only.
+
+本演示仅用于界面与系统功能展示。
 
 ## 📈 为什么选择这套源码？
 
