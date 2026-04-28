@@ -80,19 +80,7 @@ It can be used for:
 - 多体系融合预测 / 多體系融合預測 / Multi-method prediction system  
 - 支持扩展API接口 / 支援擴展API接口 / Extendable API support  
 - 模块化架构设计 / 模組化架構設計 / Modular architecture design
-## 📊 Example Result
 
-Input: 1990-01-01 12:00  
-Output: Bazi chart + destiny analysis
-## 🔗 API Example
-
-GET /calculate?birth=1990-01-01  
-
-Response:
-{
-  "bazi": "...",
-  "analysis": "..."
-}
 ## 🚀 产品演示视频（强烈推荐观看）
 
 [![周易命理实时排盘系统演示](https://img.youtube.com/vi/ZGz8zaASeVY/maxresdefault.jpg)](https://youtu.be/ZGz8zaASeVY)
@@ -153,63 +141,37 @@ Response:
 ✅ 数据库脚本  
 ✅ 部署文档  
 ✅ 商业授权
+## ✨ 核心特色
 
-📱 **Telegram：@xuzongbin001**  
-📧 **Email：masterai918@gmail.com**
+- 四柱八字精准排盘（含真太阳时、神煞、刑冲合害）
+- 紫微斗数完整排盘（十四主星、四化、宫位）
+- 奇门遁甲局数与格局判断
+- 七政四余 + 大六壬排盘
+- 多系统综合运势分析
+- 网页实时计算（<100ms）
 
-👉 **联系我获取演示站 **
-## 📈 System Capabilities | 系统能力
-✔ Multi-system fusion analysis
-✔ Structured rule computation engine
-✔ High-speed chart generation
-✔ Modular extensibility
-✔ API-ready architecture
-## 🧩 Project Structure | 项目结构
-/bazi-engine        # 八字计算模块  
-/ziwei-engine       # 紫微斗数模块  
-/qimen-engine       # 奇门遁甲模块  
-/rule-engine        # 通用规则引擎  
-/api-service        # API接口层  
-/frontend           # UI展示层  
-## 🧠 System Philosophy | 设计理念
+## 🛠 技术架构
 
-EN:
-This system is not predictive AI. It is a structured symbolic computation engine based on classical metaphysical rules.
+- 后端：Java + Spring Boot
+- 前端：响应式网页（HTML + JavaScript）
+- 支持 Docker 部署
+- 提供完整 API 接口
 
-中文：
-本系统不是预测型AI，而是基于传统术数规则的结构化符号计算引擎。
+## 📜 许可与授权
 
-## 🌐 Use Cases | 应用场景
-命理分析系统
-文化算法研究平台
-AI + 传统文化融合项目
-教学与研究工具
-API命理服务系统
-## 📊 Performance | 性能表现
-Chart generation: < 100ms
-Multi-system analysis: < 300ms
-Fully stateless architecture
-API scalable design
-## 🔧 Extensibility | 扩展能力
-Add new metaphysics systems
-Custom rule injection
-Plugin-based architecture
-API integration ready
+本仓库为展示版本，仅供学习研究参考。  
+**商用授权、完整源码包、技术支持**请联系我们获取正式许可。
 
-## ⚠️ Disclaimer | 声明
+## 📞 联系我们
 
-EN:
-This project is for research and educational purposes only.
+- **Telegram**：@xuzongbin001  
+- **Email**：masterai918@gmail.com
 
-中文：
-本项目仅用于研究与学习用途，不构成任何现实预测建议。
+欢迎咨询、在线演示、功能定制等事宜。
 
-## ⭐ Why This Project | 项目价值
-✔ Multi-system integration (Bazi + Ziwei + Qimen)
-✔ Fully modular architecture
-✔ Explainable computation model
-✔ API-ready design
-✔ Scalable metaphysics engine system
+---
+
+感谢 Star 支持！
 
 ⭐ Star 这个仓库，支持正统玄学文化的数字化传承！
 
