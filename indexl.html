@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>八字排盘专业版 - 四柱十神/大运流年/换运时间 | 周易玄学排盘演示</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', 'Noto Sans CJK SC', 'PingFang SC', Roboto, 'Microsoft YaHei', sans-serif;
+            background: #e8e0d3;
+            margin: 0;
+            padding: 20px;
+            color: #2c2418;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        /* 头部卡片 */
+        .header-card {
+            background: linear-gradient(135deg, #2c2418 0%, #4a3a28 100%);
+            border-radius: 28px;
+            padding: 20px 28px;
+            margin-bottom: 20px;
+            color: #f0e6d8;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .header-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .logo small {
+            font-size: 0.7rem;
+            opacity: 0.7;
+        }
+        .user-info {
+            background: rgba(255,255,255,0.1);
+            padding: 6px 14px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+        }
+        .config-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+            font-size: 0.8rem;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            padding-top: 14px;
+        }
+        /* 输入区 */
+        .input-card {
+            background: #fffef7;
+            border-radius: 28px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 1px solid #e2d9ce;
+        }
+        .input-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-end;
+        }
+        .input-group {
+            flex: 1;
+            min-width: 140px;
+        }
+        .input-group label {
+            display: block;
+            font-size: 0.75rem;
+            color: #9b7b5c;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #cfc3b2;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            background: white;
+            font-family: inherit;
+        }
+        button {
+            background: #7c5f3a;
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            font-size: 0.9rem;
+            border-radius: 40px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+            min-width: 100px;
+        }
+        button:hover {
+            background: #5c432b;
+            transform: translateY(-1px);
+        }
+        /* 四柱主表 */
+        .bazi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .bazi-item {
+            background: #fffef7;
+            border-radius: 20px;
+            text-align: center;
+            padding: 16px 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid #ece3d8;
+        }
+        .bazi-title {
+            font-size: 0.75rem;
+            color: #b48b5a;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        .bazi-ganzhi {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #3e2a1f;
+            letter-spacing: 4px;
+        }
+        .bazi-shishen {
+            font-size: 0.7rem;
+            color: #8f765b;
+            margin-top: 6px;
+        }
+        .bazi-canggan {
+            font-size: 0.7rem;
+            background: #f3efe7;
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 30px;
+            margin-top: 8px;
+            color: #5c432b;
+        }
+        /* 纳音五行 */
+        .nayin-row {
+            display: flex;
+            justify-content: space-around;
+            background: #f3efe7;
+            border-radius: 40px;
+            padding: 10px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .nayin-item {
+            font-size: 0.75rem;
+            color: #6b5035;
+        }
+        /* 大运表 */
+        .section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #4a3a28;
+            margin: 20px 0 12px 0;
+            padding-left: 12px;
+            border-left: 4px solid #b48b5a;
+        }
+        .dayun-table {
+            background: #fffef7;
+            border-radius: 24px;
+            overflow-x: auto;
+            padding: 8px;
+            border: 1px solid #ece3d8;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            padding: 12px 8px;
+            text-align: center;
+            border-bottom: 1px solid #f0e8de;
+        }
+        th {
+            background: #f8f3ea;
+            color: #7c5f3a;
+            font-weight: 500;
+        }
+        .age-col {
+            background: #fef9ef;
+            font-weight: 600;
+            color: #b48b5a;
+        }
+        .info-note {
+            background: #f9f5ed;
+            border-radius: 20px;
+            padding: 16px;
+            margin-top: 20px;
+            font-size: 0.7rem;
+            color: #9b7b5c;
+            text-align: center;
+            border: 1px solid #e9dfd1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 0.7rem;
+            color: #b8a281;
+        }
+        @media (max-width: 700px) {
+            .bazi-ganzhi { font-size: 1.4rem; letter-spacing: 2px; }
+            .bazi-grid { gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- 头部信息 仿图片样式 -->
+    <div class="header-card">
+        <div class="header-title">
+            <div class="logo">无极天下 <small>· 玄学排盘系统</small></div>
+            <div class="user-info">test@ttpoker.cc <span style="margin-left:12px;">退出登录</span></div>
+        </div>
+        <div class="config-bar">
+            <span>当前真太阳时: <span id="currentTimeDisplay">加载中...</span></span>
+            <span>CN 亚洲/北京 Asia/Shanghai GMT+8</span>
+            <span>经度: 121.473701 纬度: 31.230416</span>
+            <span>平太阳时 / 真太阳时: 自动计算</span>
+        </div>
+    </div>
+
+    <!-- 输入区 -->
+    <div class="input-card">
+        <div class="input-row">
+            <div class="input-group">
+                <label>姓名</label>
+                <input type="text" id="userName" value="张三" placeholder="姓名">
+            </div>
+            <div class="input-group">
+                <label>性别</label>
+                <select id="genderSelect">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label>出生日期 (公历)</label>
+                <input type="datetime-local" id="birthDateTime" value="2002-02-02T00:30">
+            </div>
+            <div class="input-group">
+                <label>时区/校准</label>
+                <select id="timezoneSelect">
+                    <option value="8">东八区 (北京/上海)</option>
+                </select>
+            </div>
+            <div><button id="btnLookup">🔮 开始排盘</button></div>
+        </div>
+        <div style="font-size:0.7rem; margin-top:12px; color:#b48b5a;">
+            ⚡ 支持真太阳时自动修正 | 平太阳时: <span id="pingSun">--</span> 真太阳时: <span id="zhenSun">--</span>
+        </div>
+    </div>
+
+    <!-- 四柱主表: 天干+地支+藏干+十神 -->
+    <div class="bazi-grid" id="baziGrid">
+        <!-- 年柱 -->
+        <div class="bazi-item"><div class="bazi-title">年柱</div><div class="bazi-ganzhi" id="yearGZ">--</div><div id="yearShiShen" class="bazi-shishen">十神</div><div id="yearCangGan" class="bazi-canggan">藏干</div></div>
+        <div class="bazi-item"><div class="bazi-title">月柱</div><div class="bazi-ganzhi" id="monthGZ">--</div><div id="monthShiShen" class="bazi-shishen">十神</div><div id="monthCangGan" class="bazi-canggan">藏干</div></div>
+        <div class="bazi-item"><div class="bazi-title">日柱</div><div class="bazi-ganzhi" id="dayGZ">--</div><div id="dayShiShen" class="bazi-shishen">元男/元女</div><div id="dayCangGan" class="bazi-canggan">藏干</div></div>
+        <div class="bazi-item"><div class="bazi-title">时柱</div><div class="bazi-ganzhi" id="hourGZ">--</div><div id="hourShiShen" class="bazi-shishen">十神</div><div id="hourCangGan" class="bazi-canggan">藏干</div></div>
+    </div>
+    <!-- 纳音行(简化示例) -->
+    <div class="nayin-row" id="nayinRow">
+        <span>年柱纳音: --</span> <span>月柱纳音: --</span> <span>日柱纳音: --</span> <span>时柱纳音: --</span>
+    </div>
+
+    <!-- 换运与大运表格 -->
+    <div class="section-title">📆 起运 · 大运流年</div>
+    <div class="dayun-table">
+        <table id="dayunTable">
+            <thead>
+                <tr><th>年龄</th><th>大运干支</th><th>十神</th><th>起止年份</th><th>流年提示</th></tr>
+            </thead>
+            <tbody id="dayunTbody">
+                <tr><td colspan="5">请点击排盘</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 补充信息: 童限/换运 -->
+    <div class="info-note" id="extraInfo">
+        童限 · 换运计算: 点击排盘后详细显示
+    </div>
+    <footer>
+        八字排盘专业演示 · 四柱/十神/藏干/大运/换运 · 完整商业版请联系 <strong>@alibabama401</strong>
+    </footer>
+</div>
+
+<script>
+    (function() {
+        // ========== 基础数据 ==========
+        const GAN = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"];
+        const ZHI = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"];
+        // 十神 (日干为主)
+        const SHI_SHEN_MAP = {
+            same: "比肩", direct: "劫财", // 同五行阴阳不同
+            generate_me: "正印", same_generate_me: "偏印",
+            me_generate: "食神", same_me_generate: "伤官",
+            restrict_me: "正官", same_restrict_me: "七杀",
+            me_restrict: "正财", same_me_restrict: "偏财"
+        };
+        
+        // 藏干 - 简化常用表 (地支藏干)
+        const CANG_GAN = {
+            "子": ["癸"], "丑": ["己","癸","辛"], "寅": ["甲","丙","戊"], "卯": ["乙"],
+            "辰": ["戊","乙","癸"], "巳": ["丙","庚","戊"], "午": ["丁","己"], "未": ["己","丁","乙"],
+            "申": ["庚","壬","戊"], "酉": ["辛"], "戌": ["戊","辛","丁"], "亥": ["壬","甲"]
+        };
+        // 纳音简单映射 (部分)
+        const NAYIN_MAP = {
+            "甲子":"海中金","乙丑":"海中金","丙寅":"炉中火","丁卯":"炉中火","戊辰":"大林木","己巳":"大林木",
+            "庚午":"路旁土","辛未":"路旁土","壬申":"剑锋金","癸酉":"剑锋金","甲戌":"山头火","乙亥":"山头火"
+        };
+        function getNaYin(gz) { return NAYIN_MAP[gz] || "壁上土"; }
+
+        // 天干五合等辅助略
+        
+        // 获取十神 (日干, 其他干)
+        function getShiShen(dayGan, targetGan) {
+            if(!dayGan || !targetGan) return "---";
+            let dIdx = GAN.indexOf(dayGan);
+            let tIdx = GAN.indexOf(targetGan);
+            if(dIdx === -1 || tIdx === -1) return "——";
+            let diff = (tIdx - dIdx + 10) % 10;
+            let sameYinYang = ((dIdx % 2) === (tIdx % 2));
+            if(diff === 0) return sameYinYang ? "比肩" : "劫财";
+            if(diff === 1) return sameYinYang ? "食神" : "伤官";
+            if(diff === 2) return sameYinYang ? "偏财" : "正财";
+            if(diff === 3) return sameYinYang ? "七杀" : "正官";
+            if(diff === 4) return sameYinYang ? "正印" : "偏印";
+            // 负向 9->正印类推
+            if(diff === 9) return sameYinYang ? "偏印" : "正印";
+            if(diff === 8) return sameYinYang ? "正官" : "七杀";
+            if(diff === 7) return sameYinYang ? "正财" : "偏财";
+            if(diff === 6) return sameYinYang ? "伤官" : "食神";
+            return "——";
+        }
+        
+        // 日柱计算
+        function getDayGanZhi(date) {
+            let base = new Date(1900, 0, 1);
+            let diffDays = Math.floor((date - base) / 86400000);
+            let idx = (diffDays + 10) % 60; // 1900-01-01 甲戌日，序号10
+            let ganIdx = idx % 10, zhiIdx = idx % 12;
+            return { gan: GAN[ganIdx], zhi: ZHI[zhiIdx], ganzhi: GAN[ganIdx]+ZHI[zhiIdx] };
+        }
+        // 年柱 (立春)
+        function getYearGanZhi(date) {
+            let y = date.getFullYear();
+            let spring = new Date(y, 1, 4);
+            if(y===2000) spring=new Date(y,1,4);
+            let isAfter = date >= spring;
+            let ty = isAfter ? y : y-1;
+            let ganIdx = (ty-4) % 10, zhiIdx = (ty-4) % 12;
+            if(ganIdx<0) ganIdx+=10; if(zhiIdx<0) zhiIdx+=12;
+            return { gan: GAN[ganIdx], zhi: ZHI[zhiIdx], ganzhi: GAN[ganIdx]+ZHI[zhiIdx] };
+        }
+        // 月柱 (本demo节气简化)
+        function getMonthGanZhi(date, yearGan) {
+            let month = date.getMonth()+1, day=date.getDate();
+            let ygIdx = GAN.indexOf(yearGan);
+            let firstGan = [2,4,6,8,0][ [0,5].includes(ygIdx)?0: [1,6].includes(ygIdx)?1: [2,7].includes(ygIdx)?2: [3,8].includes(ygIdx)?3: 4 ];
+            let monthIdx = (month+1)%12; // 大致寅月为0
+            if((month===2 && day<4) || month===1) monthIdx=0;
+            else if((month===2 && day>=4)|| month===3) monthIdx=1;
+            else monthIdx = (month+8)%12;
+            let ganIdx = (firstGan + monthIdx) %10;
+            let zhiIdx = monthIdx;
+            return { gan: GAN[ganIdx], zhi: ZHI[zhiIdx], ganzhi: GAN[ganIdx]+ZHI[zhiIdx] };
+        }
+        // 时柱
+        function getHourGanZhi(dayGan, hour24) {
+            let dizhi = Math.floor((hour24+1)/2) % 12;
+            let start = [0,2,4,6,8][ [0,5].includes(GAN.indexOf(dayGan))?0: [1,6].includes(GAN.indexOf(dayGan))?1: [2,7].includes(GAN.indexOf(dayGan))?2: [3,8].includes(GAN.indexOf(dayGan))?3:4 ];
+            let ganIdx = (start + dizhi) %10;
+            return { gan: GAN[ganIdx], zhi: ZHI[dizhi], ganzhi: GAN[ganIdx]+ZHI[dizhi] };
+        }
+        
+        // 起运/大运简化 (依照图片示例: 1岁起运 每十年一换)
+        function calcDaYun(yearGanZhi, gender, startAge=1) {
+            let yg = yearGanZhi.gan;
+            let isYang = ["甲","丙","戊","庚","壬"].includes(yg);
+            let order = (isYang && gender==='男') || (!isYang && gender==='女') ? "顺" : "逆";
+            let baseGan = GAN.indexOf(yg);
+            let days = [];
+            for(let i=0;i<10;i++) {
+                let ganIdx = order==='顺' ? (baseGan+ i+1)%10 : (baseGan - i-1+100)%10;
+                let zhiIdx = order==='顺' ? (i+1)%12 : (11 - i%12)%12;
+                let ganzhi = GAN[ganIdx]+ZHI[zhiIdx];
+                let ageStart = startAge + i*10;
+                let yearStart = 2026 + i*10; // 占位
+                days.push({ age: `${ageStart}-${ageStart+9}`, ganzhi, shishen: "——", years: `${yearStart}-${yearStart+9}` });
+            }
+            return days;
+        }
+
+        // 真太阳时简易修正 (经度121.47)
+        function adjustTrueSolarTime(date) {
+            let lon = 121.473701;
+            let localOffset = 8;
+            let utc = date.getTime() - date.getTimezoneOffset()*60000;
+            let solarOffset = (lon - 120) * 4 * 60 * 1000;
+            let trueSolar = new Date(utc + solarOffset + localOffset*3600000);
+            return trueSolar;
+        }
+        
+        function updateDisplay() {
+            let dtStr = document.getElementById('birthDateTime').value;
+            if(!dtStr) { alert("请选择日期时间"); return; }
+            let birth = new Date(dtStr);
+            let gender = document.getElementById('genderSelect').value;
+            let name = document.getElementById('userName').value || "未知";
+            
+            // 真太阳时
+            let zhenDate = adjustTrueSolarTime(birth);
+            let pingSunStr = birth.toLocaleTimeString();
+            let zhenSunStr = zhenDate.toLocaleTimeString();
+            document.getElementById('pingSun').innerText = pingSunStr;
+            document.getElementById('zhenSun').innerText = zhenSunStr;
+            document.getElementById('currentTimeDisplay').innerText = zhenDate.toLocaleString();
+            
+            let yearP = getYearGanZhi(zhenDate);
+            let dayP = getDayGanZhi(zhenDate);
+            let monthP = getMonthGanZhi(zhenDate, yearP.gan);
+            let hourP = getHourGanZhi(dayP.gan, zhenDate.getHours());
+            // 赋值四柱
+            document.getElementById('yearGZ').innerHTML = yearP.ganzhi;
+            document.getElementById('monthGZ').innerHTML = monthP.ganzhi;
+            document.getElementById('dayGZ').innerHTML = dayP.ganzhi;
+            document.getElementById('hourGZ').innerHTML = hourP.ganzhi;
+            // 十神
+            document.getElementById('yearShiShen').innerHTML = getShiShen(dayP.gan, yearP.gan);
+            document.getElementById('monthShiShen').innerHTML = getShiShen(dayP.gan, monthP.gan);
+            document.getElementById('hourShiShen').innerHTML = getShiShen(dayP.gan, hourP.gan);
+            document.getElementById('dayShiShen').innerHTML = (gender==='男'?"元男":"元女");
+            // 藏干
+            document.getElementById('yearCangGan').innerHTML = CANG_GAN[yearP.zhi]?.join(",") || "——";
+            document.getElementById('monthCangGan').innerHTML = CANG_GAN[monthP.zhi]?.join(",") || "——";
+            document.getElementById('dayCangGan').innerHTML = CANG_GAN[dayP.zhi]?.join(",") || "——";
+            document.getElementById('hourCangGan').innerHTML = CANG_GAN[hourP.zhi]?.join(",") || "——";
+            // 纳音行
+            document.getElementById('nayinRow').innerHTML = `<span>年柱纳音: ${getNaYin(yearP.ganzhi)}</span> <span>月柱纳音: ${getNaYin(monthP.ganzhi)}</span> <span>日柱纳音: ${getNaYin(dayP.ganzhi)}</span> <span>时柱纳音: ${getNaYin(hourP.ganzhi)}</span>`;
+            
+            // 大运  (1岁起运)
+            let dayunArr = calcDaYun(yearP, gender, 1);
+            let tbody = document.getElementById('dayunTbody');
+            tbody.innerHTML = "";
+            dayunArr.forEach(d => {
+                let tr = `<tr><td class="age-col">${d.age}</td><td>${d.ganzhi}</td><td>${d.shishen}</td><td>${d.years}</td><td>—</td></tr>`;
+                tbody.innerHTML += tr;
+            });
+            // 换运信息
+            document.getElementById('extraInfo').innerHTML = `🧧 童限: 1岁起运 · 每十年一换运 (${dayunArr[0]?.years || ""} 起) 顺排大运 | 日主${dayP.gan}${dayP.zhi} 性别:${gender} 年柱${yearP.ganzhi} ${["甲","丙","戊","庚","壬"].includes(yearP.gan)?"阳年":"阴年"}`;
+        }
+        
+        document.getElementById('btnLookup').addEventListener('click', updateDisplay);
+        window.onload = function() { updateDisplay(); };
+    })();
+</script>
+</body>
+</html>
