@@ -1,4 +1,4 @@
-# 🧮 周易排盘|周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
+# 🧮 周易排盘|周易源码|周易玄学集大成者 | 八字+紫微+七政四余+奇门+六壬 完整排盘系统
 > **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | 可商业运营**
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready | SaaS Ready | Commercial Use🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
