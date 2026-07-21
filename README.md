@@ -223,7 +223,7 @@ This demo is for UI and system demonstration purposes only.
 - **Telegram**：@xuzongbin001  
 - **Email**：masterai918@gmail.com
 
-用于技术交流与项目探讨：
+
 
 ---
 
