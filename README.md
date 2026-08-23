@@ -9,7 +9,7 @@
 
 [![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
 [![Platform](https://img.shields.io/badge/平台-Web%20%7C%20App-green)]()
-[![License](https://img.shields.io/badge/授权-商业源码-red)]()
+[![License](https://img.shields.io/badge/源码-red)]()
 
 ---
 
@@ -130,7 +130,7 @@ It can be used for:
 
 
 
-🎥 **演示站**：[联系我获取在线演示地址](https://t.me/xuzongbin001)
+
 
 ## 🌐 Live Demo | 在线演示
 
@@ -158,12 +158,7 @@ This demo is for UI and system demonstration purposes only.
 
 
 
-## 💰 源码内容
 
-✅ 包含Java后端源码  
-✅ 网页前端代码  
-✅ 数据库脚本  
-✅ 部署文档  
 
 ## ✨ 核心特色
 
