@@ -141,12 +141,6 @@ This demo is for UI and system demonstration purposes only.
 
 本演示仅用于界面与系统功能展示。
 
-## 📈 这套源码的优势
-
-- **独特性**：市面上唯一集合七种算法的完整系统
-- **准确性**：基于数十年周易研究，算法经过验证
-- **可用性**：可直接部署网页或打包App商业运营
-- **完整性**：全套代码资源，无保留交付
 
 
 
@@ -213,7 +207,7 @@ This demo is for UI and system demonstration purposes only.
 ## 🤖 AI Extension
 
 The system can be integrated with AI models for automated interpretation and analysis.
-##🔍 搜索关键词（SEO）
+##🔍 
 
 八字排盘系统，紫微斗数软件，奇门遁甲系统，中国命理计算引擎，术数排盘工具，五行计算，干支算法
 
