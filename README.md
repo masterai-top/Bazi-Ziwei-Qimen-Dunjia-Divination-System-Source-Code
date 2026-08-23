@@ -1,5 +1,5 @@
-# 🧮 周易排盘|周易源码|易经排盘|周易玄学集大成者 |四柱八字源码|易经源码 | 八字| 紫微| 七政四余| 奇门| 六壬| 完整排盘系统
-> **12年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
+# 🧮 周易排盘|周易|易经排盘|周易玄学集大成者 |四柱八字|易经 | 八字| 紫微| 七政四余| 奇门| 六壬
+> **本系统整合了八字、紫微斗数、奇门遁甲等多种传统命理算法 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready |  🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
 👉 Fortune Telling System | Astrology Engine | Divination Platform |
@@ -9,7 +9,7 @@
 
 [![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
 [![Platform](https://img.shields.io/badge/平台-Web%20%7C%20App-green)]()
-[![License](https://img.shields.io/badge/源码-red)]()
+[![License](https://img.shields.io/badge/ MIT)]()
 
 ---
 
@@ -71,25 +71,20 @@ This project is a complete Chinese metaphysics calculation system, including:
 - 六壬 / 六壬 / Liu Ren  
 
 可用于：  
-可用於：  
-It can be used for:
 
-- 命理预测平台 / 命理預測平台 / Fortune telling platform  
-- 占星/玄学系统 / 占星/玄學系統 / Astrology system  
-- AI预测工具 / AI預測工具 / AI prediction tools  
 ## 🏆 使用场景 / 使用場景 / Use Cases
-
+适用于术数算法研究与教学
 - 命理网站 / 命理網站 / Fortune telling website  
 - 命理APP / 命理App / Astrology mobile app  
 - AI玄学系统 / AI玄學系統 / AI metaphysics system  
 - 个人命运分析工具 / 個人命運分析工具 / Personal destiny analysis tools  
-- SaaS平台搭建 / SaaS平台搭建 / SaaS platform development
+
 ## ⚙️ 技术价值 / 技術價值 / Features
 
 - 基于时间的推算引擎 / 基於時間的推算引擎 / Time-based calculation engine  
 - 传统命理算法实现 / 傳統命理算法實現 / Traditional metaphysics algorithms  
 - 多体系融合预测 / 多體系融合預測 / Multi-method prediction system  
-- 支持扩展API接口 / 支援擴展API接口 / Extendable API support  
+- 模块化设计，便于功能扩展/ 模块化设计，便于功能扩展 / Extendable API support  
 - 模块化架构设计 / 模組化架構設計 / Modular architecture design
 
 
@@ -139,7 +134,7 @@ A fully runnable web-based demo is included in this repository.
 📌 Note | 说明：
 This demo is for UI and system demonstration purposes only.
 
-本演示仅用于界面与系统功能展示。
+本演示仅用于界面与功能演示，不提供商业服务。
 
 
 
