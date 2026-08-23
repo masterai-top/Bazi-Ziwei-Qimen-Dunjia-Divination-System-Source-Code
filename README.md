@@ -92,15 +92,7 @@ It can be used for:
 - 支持扩展API接口 / 支援擴展API接口 / Extendable API support  
 - 模块化架构设计 / 模組化架構設計 / Modular architecture design
 
-## 🚀 产品演示视频（强烈推荐观看）
 
-[![周易命理实时排盘系统演示](https://img.youtube.com/vi/ZGz8zaASeVY/maxresdefault.jpg)](https://youtu.be/ZGz8zaASeVY)
-
-**周易命理实时排盘系统演示视频**  
-八字排盘 + 紫微斗数 + 奇门遁甲 + 七政四余 + 大六壬综合展示
-
-视频详细展示了输入生日后，系统实时生成多种传统命理排盘的完整流程，界面清晰，计算快速。
-点击上方图片直接跳转 YouTube 播放。
 
 ## 📸 排盘界面真实截图 / Screenshots
 
@@ -175,7 +167,6 @@ This demo is for UI and system demonstration purposes only.
 - 前端：响应式网页（HTML + JavaScript）
 - 支持 Docker 部署
 - 提供完整 API 接口
-# 🧠 中国传统术数计算引擎（八字 / 紫微斗数 / 奇门遁甲系统）
 
 ---
 
