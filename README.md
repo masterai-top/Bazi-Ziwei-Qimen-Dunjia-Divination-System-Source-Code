@@ -1,5 +1,5 @@
 # 🧮 周易排盘|周易源码|易经排盘|周易玄学集大成者 |四柱八字源码|易经源码 | 八字| 紫微| 七政四余| 奇门| 六壬| 完整排盘系统
-> **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | 可商业运营**
+> **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready | SaaS Ready | Commercial Use🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
 👉 Fortune Telling System | Astrology Engine | Divination Platform | Ready for Commercial Use
@@ -149,25 +149,22 @@ This demo is for UI and system demonstration purposes only.
 
 本演示仅用于界面与系统功能展示。
 
-## 📈 为什么选择这套源码？
+## 📈 这套源码的优势
 
 - **独特性**：市面上唯一集合七种算法的完整系统
 - **准确性**：基于数十年周易研究，算法经过验证
 - **可用性**：可直接部署网页或打包App商业运营
 - **完整性**：全套代码资源，无保留交付
 
-## 🗣️ 用户评价
 
-> “排盘结果非常准确，和传统大师推演一致。” —— 某玄学爱好者
-> (如有真实评价可替换)
 
-## 💰 获取源码 | Contact
+## 💰 源码内容
 
-✅ 完整Java后端源码  
+✅ 包含Java后端源码  
 ✅ 网页前端代码  
 ✅ 数据库脚本  
 ✅ 部署文档  
-✅ 商业授权
+
 ## ✨ 核心特色
 
 - 四柱八字精准排盘（含真太阳时、神煞、刑冲合害）
@@ -213,10 +210,7 @@ This demo is for UI and system demonstration purposes only.
 
 
 - 
-## 📜 许可与授权
 
-本仓库为展示版本，仅供学习研究参考。  
-**商用授权、完整源码包、技术支持**请联系我们获取正式许可。
 
 ## 📞 联系我们
 
