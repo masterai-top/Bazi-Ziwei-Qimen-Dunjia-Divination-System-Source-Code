@@ -1,8 +1,8 @@
 # 🧮 周易排盘|周易源码|易经排盘|周易玄学集大成者 |四柱八字源码|易经源码 | 八字| 紫微| 七政四余| 奇门| 六壬| 完整排盘系统
-> **数十年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
+> **12年周易研究 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
-👉 Bazi + Ziwei + Qimen Dunjia | API Ready | SaaS Ready | Commercial Use🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
-👉 Fortune Telling System | Astrology Engine | Divination Platform | Ready for Commercial Use
+👉 Bazi + Ziwei + Qimen Dunjia | API Ready |  🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
+👉 Fortune Telling System | Astrology Engine | Divination Platform |
 
 
 
@@ -14,8 +14,8 @@
 ---
 
 ## ✨ 核心特色 | Unique Advantages..
+本项目是一个整合了八字、紫微斗数、奇门遁甲等多种传统命理算法的综合性计算系统，采用 Java 后端与网页前端架构，旨在为相关研究提供可扩展的开源实现。
 
-本项目是市面上罕见的**集大成者**，将七种核心玄学算法融合在一个系统中：
 
 | 模块 | 功能说明 |
 | :--- | :--- |
@@ -192,8 +192,8 @@ This demo is for UI and system demonstration purposes only.
 - 
 
 
-## 📞 联系我们
-
+## 📞 问题反馈与交流
+如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
 - **Telegram**：@xuzongbin001  
 - **Email**：masterai918@gmail.com
 
@@ -204,12 +204,6 @@ This demo is for UI and system demonstration purposes only.
 感谢 Star 支持！
 
 ⭐ Star 这个仓库，支持正统玄学文化的数字化传承！
-## 🤖 AI Extension
-
-The system can be integrated with AI models for automated interpretation and analysis.
-##🔍 
-
-八字排盘系统，紫微斗数软件，奇门遁甲系统，中国命理计算引擎，术数排盘工具，五行计算，干支算法
 
 
 
