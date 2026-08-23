@@ -5,12 +5,6 @@
 👉 Fortune Telling System | Astrology Engine | Divination Platform |
 
 
-
-
-[![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
-[![Platform](https://img.shields.io/badge/平台-Web%20%7C%20App-green)]()
-[![License](https://img.shields.io/badge/ MIT)]()
-
 ---
 
 ## ✨ 核心特色 | Unique Advantages..
@@ -70,14 +64,7 @@ This project is a complete Chinese metaphysics calculation system, including:
 - 奇门遁甲 / 奇門遁甲 / Qimen Dunjia  
 - 六壬 / 六壬 / Liu Ren  
 
-可用于：  
 
-## 🏆 使用场景 / 使用場景 / Use Cases
-适用于术数算法研究与教学
-- 命理网站 / 命理網站 / Fortune telling website  
-- 命理APP / 命理App / Astrology mobile app  
-- AI玄学系统 / AI玄學系統 / AI metaphysics system  
-- 个人命运分析工具 / 個人命運分析工具 / Personal destiny analysis tools  
 
 ## ⚙️ 技术价值 / 技術價值 / Features
 
@@ -179,7 +166,7 @@ This demo is for UI and system demonstration purposes only.
 * 命理排盘工具开发
 * 中国传统文化数字化
 * AI辅助分析系统（扩展）
-* Web / App命理系统集成
+* Web / App等多种展示
 
 ---
 
