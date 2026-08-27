@@ -1,0 +1,19 @@
+name: Repository Check
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+
+jobs:
+  repository-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required SEO files
+        run: |
+          test -f README.en.md
+          test -f README.zh-TW.md
+          test -f docs/index.html
+          test -f docs/sitemap.xml
+          test -f docs/robots.txt
