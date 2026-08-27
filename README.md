@@ -172,7 +172,11 @@ This demo is for UI and system demonstration purposes only.
 
 
 - 
+## MasterAI 相关项目
 
+- [MasterAI 项目主页](https://github.com/masterai-top)
+- [八字、紫微斗数与奇门遁甲综合系统](https://github.com/masterai-top/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code)
+- [周易排盘系统](https://github.com/masterai-top/Zhouyi-Divination-System-Source-Code)
 
 ## 📞 问题反馈与交流
 如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
