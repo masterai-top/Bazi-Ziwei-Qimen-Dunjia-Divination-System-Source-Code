@@ -4,7 +4,7 @@
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready |  🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
 👉 Fortune Telling System | Astrology Engine | Divination Platform |
 
-
+[English](README.en.md) |  [繁體中文](README.zh-TW.md)
 ---
 
 ## ✨ 核心特色 | Unique Advantages..
