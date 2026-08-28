@@ -1,33 +1,202 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta name="google-site-verification" content="rrp5Uvgzi-1-rMxUBfhV3wjlNrFqzwnqiA4e3qsOLEM" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bazi Ziwei Qimen Dunjia System Source Code</title>
-  <meta name="description" content="Bazi Ziwei Qimen Dunjia divination system source code for Chinese metaphysics, AI fortune telling, I Ching, naming analysis and paid report platforms.">
+  <title>Bazi Ziwei Qimen Source Code</title>
+  <meta name="description" content="八字排盘、紫微斗数、奇门遁甲、周易占卜、五行分析、AI 命理测算和付费报告系统源码。Bazi, Ziwei Doushu, Qimen Dunjia and Chinese metaphysics source code.">
+  <meta name="keywords" content="八字源码, 紫微斗数源码, 奇门遁甲源码, 周易占卜系统, AI命理源码, Bazi source code, Ziwei Doushu source code, Qimen Dunjia source code">
+  <link rel="canonical" href="https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/">
   <style>
-body{font-family:Arial,"Microsoft YaHei",sans-serif;margin:0;color:#17202a;background:#fbfaf6}
-header{background:#243447;color:white;padding:48px 20px}
-main{max-width:1060px;margin:0 auto;padding:30px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
-.card{background:white;border:1px solid #e6e1d8;border-radius:8px;padding:18px}
-a{color:#0b63ce}.tag{display:inline-block;background:#efe7d5;padding:5px 9px;border-radius:999px;margin:3px}
-footer{padding:24px 20px;text-align:center;color:#57606a}
-</style>
+    body {
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      margin: 0;
+      color: #17202a;
+      background: #fbfaf6;
+      line-height: 1.65;
+    }
+    header {
+      background: #243447;
+      color: white;
+      padding: 48px 20px;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px 46px;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(30px, 5vw, 50px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0 0 14px;
+    }
+    .lead {
+      max-width: 900px;
+      color: #ecf4ff;
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e6e1d8;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .screenshot-card {
+      padding: 12px;
+    }
+    .screenshot-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #e6e1d8;
+      background: #fff;
+    }
+    .tag {
+      display: inline-block;
+      background: #efe7d5;
+      padding: 5px 9px;
+      border-radius: 999px;
+      margin: 3px;
+      color: #4d3712;
+      border: 1px solid #dfc894;
+    }
+    a {
+      color: #0b63ce;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 14px;
+      border-radius: 8px;
+      color: #fff;
+      background: #0b63ce;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    footer {
+      padding: 24px 20px;
+      text-align: center;
+      color: #57606a;
+      background: #fff;
+      border-top: 1px solid #e6e1d8;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Bazi Ziwei Qimen Dunjia Divination System Source Code</h1>
-    <p>Bazi, Ziwei Doushu, Qimen Dunjia, I Ching divination, AI fortune telling and Chinese metaphysics source code.</p>
+    <div class="wrap">
+      <h1>八字紫微奇门遁甲占卜系统源码</h1>
+      <p class="lead">面向商业化落地的八字排盘、紫微斗数、奇门遁甲、周易占卜、五行分析、流年运势、起名测算、AI 命理解读和付费报告系统源码。</p>
+      <a class="button" href="https://github.com/masterai-top/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code">View GitHub Repository</a>
+      <a class="button" href="features.html">Features</a>
+      <a class="button" href="architecture.html">Architecture</a>
+      <a class="button" href="deployment.html">Deployment</a>
+    </div>
   </header>
-  <main><section class="grid">
-<div class="card"><h2>Bazi Source Code</h2><p>Chart calculation, interpretation workflow, annual fortune and paid report delivery.</p></div>
-<div class="card"><h2>Ziwei Doushu</h2><p>Palace analysis, destiny chart modules and structured reading output.</p></div>
-<div class="card"><h2>Qimen Dunjia</h2><p>Qimen divination, strategy interpretation and cultural consulting scenarios.</p></div>
-<div class="card"><h2>AI Fortune Telling</h2><p>AI-assisted reading generation for web, H5, mobile app and SaaS products.</p></div>
-</section>
-<p><a href="features.html">Features</a> | <a href="architecture.html">Architecture</a> | <a href="deployment.html">Deployment</a> | <a href="responsible-use.html">Responsible Use</a></p></main>
-  <footer>Contact: Telegram @xuzongbin001 | masterai918@gmail.com</footer>
+
+  <main>
+    <section>
+      <h2>Core Modules</h2>
+      <div class="grid">
+        <div class="card"><h3>八字排盘</h3><p>支持八字排盘、十神、五行、流年、大运、命理解读和付费报告生成。</p></div>
+        <div class="card"><h3>紫微斗数</h3><p>支持命盘、宫位、星曜、流年和多维度命理分析场景。</p></div>
+        <div class="card"><h3>奇门遁甲</h3><p>支持奇门起局、时空盘、决策分析和传统文化咨询场景。</p></div>
+        <div class="card"><h3>AI 命理解读</h3><p>适合接入 AI 解读、提示词模板、报告生成和会员付费业务。</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Product Screenshots</h2>
+      <p>Product screenshots loaded from <code>docs/assets/Screenshots/</code>. Since this file is <code>docs/index.html</code>, the correct image path is <code>assets/Screenshots/filename.png</code>.</p>
+      <div class="grid">
+        <div class="card screenshot-card">
+          <h3>八字排盘 / Bazi Chart</h3>
+          <img src="assets/Screenshots/baizhipaipan.png" alt="Bazi chart source code product screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>大六壬 / Daliuren</h3>
+          <img src="assets/Screenshots/daliuren.png" alt="Daliuren divination system source code screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>流年运势 / Annual Fortune</h3>
+          <img src="assets/Screenshots/liunian.png" alt="Bazi annual fortune report system screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>命理排盘 / Destiny Chart</h3>
+          <img src="assets/Screenshots/paipan.png" alt="Chinese metaphysics destiny chart system screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>奇门遁甲 / Qimen Dunjia</h3>
+          <img src="assets/Screenshots/qizheng2.png" alt="Qimen Dunjia source code product screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>七政四余 / Qizheng S余</h3>
+          <img src="assets/Screenshots/qizhengsiyu.png" alt="Qizheng Siyu astrology system screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>五纪八字 / Wuji Bazi</h3>
+          <img src="assets/Screenshots/wujibazi.png" alt="Wuji Bazi source code product screenshot" loading="lazy">
+        </div>
+        <div class="card screenshot-card">
+          <h3>五行分析 / Five Elements</h3>
+          <img src="assets/Screenshots/wuxing.png" alt="Five elements Chinese metaphysics analysis screenshot" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>SEO Keywords</h2>
+      <p>
+        <span class="tag">八字源码</span>
+        <span class="tag">紫微斗数源码</span>
+        <span class="tag">奇门遁甲源码</span>
+        <span class="tag">周易占卜系统</span>
+        <span class="tag">AI 命理源码</span>
+        <span class="tag">Bazi source code</span>
+        <span class="tag">Ziwei Doushu source code</span>
+        <span class="tag">Qimen Dunjia source code</span>
+      </p>
+    </section>
+
+    <section>
+      <h2>Documentation</h2>
+      <div class="grid">
+        <div class="card"><h3>Features</h3><p><a href="features.html">功能介绍与产品模块</a></p></div>
+        <div class="card"><h3>Architecture</h3><p><a href="architecture.html">系统架构与模块说明</a></p></div>
+        <div class="card"><h3>Deployment</h3><p><a href="deployment.html">部署指南与上线检查</a></p></div>
+        <div class="card"><h3>Responsible Use</h3><p><a href="responsible-use.html">合规使用与内容边界</a></p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    GitHub: <a href="https://github.com/masterai-top/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code">Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code</a>
+    | Telegram @xuzongbin001 | masterai918@gmail.com
+  </footer>
 </body>
 </html>
