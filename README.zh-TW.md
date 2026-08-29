@@ -58,6 +58,34 @@ tests/                  # 排盤、接口與報告驗證示例
 - [部署指南](docs/deployment.html)
 - [合規使用](docs/responsible-use.html)
 
+## 📸 排盘界面真实截图 / Screenshots
+
+![无极八字排盘](Screenshots/wujibazi.png)  
+**无极八字排盘界面 | Bazi Chart**
+
+![八字排盘](Screenshots/baizhipaipan.png)  
+**八字排盘界面 | Four Pillars Bazi**
+
+![五行分析](Screenshots/wuxing.png)  
+**五行分析界面 | Five Elements Analysis**
+
+![流年运势](Screenshots/liunian.png)  
+**流年运势分析 | Annual Luck Analysis**
+
+![大六壬排盘](Screenshots/daliuren.png)  
+**大六壬排盘界面 | Da Liuren Chart**
+
+![七政四余排盘](Screenshots/qizhengsiyu.png)  
+**七政四余排盘界面 | Qizheng Siyü Chart**
+
+![七政四余2](Screenshots/qizheng2.png)  
+**七政四余详细排盘 | Qizheng Detailed**
+
+![综合排盘](Screenshots/paipan.png)  
+**综合排盘总览界面 | Overall Divination Chart**
+
+
+
 ## 聯繫方式
 
 Telegram: `@xuzongbin001`  
