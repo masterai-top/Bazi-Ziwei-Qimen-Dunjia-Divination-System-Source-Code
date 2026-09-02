@@ -1,6 +1,6 @@
 [简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
-# 综合命理主仓库 | Zhouyi_Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code
+# 综合易经玄学排盘命理主仓库 | Zhouyi-Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code
 
 
 本项目聚焦综合命理主仓库，保留线上现有 README 的功能、架构、截图与使用说明，并以仓库实际代码为准。
