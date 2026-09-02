@@ -1,11 +1,7 @@
-[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# 综合易经玄学排盘命理主仓库 | Zhouyi-Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code
+# 八字、紫微斗数与奇门遁甲综合命理计算系统
 
-
-本项目聚焦综合命理主仓库，保留线上现有 README 的功能、架构、截图与使用说明，并以仓库实际代码为准。
-
-> 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
 > **本系统整合了八字、紫微斗数、奇门遁甲等多种传统命理算法 | 集七种核心玄学算法于一体 | 网页实时排盘 | **
 🔥 Chinese Fortune Telling Platform | 命理系统 | 命理系統
 👉 Bazi + Ziwei + Qimen Dunjia | API Ready |  🔥 Chinese Metaphysics Platform | Bazi + Ziwei + Qimen Dunjia + Liu Ren
@@ -16,9 +12,7 @@
 
 
 ## ✨ 核心特色 | Unique Advantages..
-本项目是一个整合了周易，易经，七政四余，八字、紫微斗数、奇门遁甲等多种传统命理算法的综合性计算系统，采用 Java 后端与网页前端架构，旨在为相关研究提供可扩展的开源实现。
-
-
+本项目是一个整合了八字、紫微斗数、奇门遁甲等多种传统命理算法的综合性计算系统，采用 Java 后端与网页前端架构，旨在为相关研究提供可扩展的开源实现。
 
 
 | 模块 | 功能说明 |
@@ -35,8 +29,6 @@
  八字排盘 ✅ 紫微斗数排盘 ✅ 奇门遁甲排盘
 ✅ 七政四余排盘 ✅ 大六壬占卜 ✅ 神煞查询
 ✅ 刑冲关系分析 ✅ 运势推算 ✅ 网页实时展示
-
-
 
 
 ## 🚀 技术架构 | Tech Stack
@@ -86,10 +78,6 @@ This project is a complete Chinese metaphysics calculation system, including:
 - 六壬 / 六壬 / Liu Ren  
 
 
-
-
-
-
 ## ⚙️ 技术价值 / 技術價值 / Features
 
 
@@ -98,10 +86,6 @@ This project is a complete Chinese metaphysics calculation system, including:
 - 多体系融合预测 / 多體系融合預測 / Multi-method prediction system  
 - 模块化设计，便于功能扩展/ 模块化设计，便于功能扩展 / Extendable API support  
 - 模块化架构设计 / 模組化架構設計 / Modular architecture design
-
-
-
-
 
 
 ## 📸 排盘界面真实截图 / Screenshots
@@ -139,14 +123,6 @@ This project is a complete Chinese metaphysics calculation system, including:
 **综合排盘总览界面 | Overall Divination Chart**
 
 
-
-
-
-
-
-
-
-
 ## 🌐 Live Demo | 在线演示
 
 
@@ -170,16 +146,6 @@ This demo is for UI and system demonstration purposes only.
 
 
 本演示仅用于界面与功能演示，不提供商业服务。
-
-
-
-
-
-
-
-
-
-
 
 
 ## ✨ 核心特色
@@ -220,8 +186,6 @@ This demo is for UI and system demonstration purposes only.
 适用于术数算法研究与数字化实现。
 
 
-
-
 ---
 
 
@@ -237,12 +201,6 @@ This demo is for UI and system demonstration purposes only.
 
 ---
 
-## 📞 问题反馈与交流
-如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
-- **Telegram**：@xuzongbin001  
-- **Email**：masterai918@gmail.com
-
-
 
 - 
 ## MasterAI 相关项目
@@ -253,10 +211,10 @@ This demo is for UI and system demonstration purposes only.
 - [周易排盘系统](https://github.com/masterai-top/Zhouyi-Divination-System-Source-Code)
 
 
-
-
-
-
+## 📞 问题反馈与交流
+如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
+- **Telegram**：@xuzongbin001  
+- **Email**：masterai918@gmail.com
 
 
 ---
@@ -266,4 +224,3 @@ This demo is for UI and system demonstration purposes only.
 
 
 ⭐ Star 这个仓库，支持正统玄学文化的数字化传承！
-
