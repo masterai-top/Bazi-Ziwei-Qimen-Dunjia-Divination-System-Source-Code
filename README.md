@@ -2,6 +2,7 @@
 
 # 综合命理主仓库 | Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code
 
+
 本项目聚焦综合命理主仓库，保留线上现有 README 的功能、架构、截图与使用说明，并以仓库实际代码为准。
 
 > 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
@@ -236,6 +237,10 @@ This demo is for UI and system demonstration purposes only.
 
 ---
 
+## 📞 问题反馈与交流
+如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
+- **Telegram**：@xuzongbin001  
+- **Email**：masterai918@gmail.com
 
 
 
@@ -248,10 +253,6 @@ This demo is for UI and system demonstration purposes only.
 - [周易排盘系统](https://github.com/masterai-top/Zhouyi-Divination-System-Source-Code)
 
 
-## 📞 问题反馈与交流
-如果您在使用过程中遇到问题，或有技术改进建议，欢迎通过以下方式与我们联系
-- **Telegram**：@xuzongbin001  
-- **Email**：masterai918@gmail.com
 
 
 
