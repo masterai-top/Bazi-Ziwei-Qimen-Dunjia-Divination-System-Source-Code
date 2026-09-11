@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/</loc><priority>1.0</priority></url>
-  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/features.html</loc><priority>0.8</priority></url>
-  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/architecture.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/deployment.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/responsible-use.html</loc><priority>0.6</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/zh-cn/</loc><xhtml:link rel="alternate" hreflang="zh-Hans" href="https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/zh-cn/"/><xhtml:link rel="alternate" hreflang="zh-Hant" href="https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/zh-tw/"/><xhtml:link rel="alternate" hreflang="en" href="https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/"/><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/zh-tw/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/en/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/features.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/architecture.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/deployment.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
