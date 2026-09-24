@@ -1,119 +1,77 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# Bazi, Ziwei Doushu and Qimen Dunjia Metaphysics System
+# Bazi Chart and I Ching Metaphysics System Source Code
 
-A comprehensive Chinese metaphysics and divination system source code project covering Bazi, Ziwei Doushu, Qimen Dunjia, naming analysis, fortune reports, AI interpretation workflows, membership operations, and web/mobile product delivery.
+[![Frontend](https://img.shields.io/badge/frontend-HTML%20%2F%20JavaScript-e34f26)](index.html)
+[![Java](https://img.shields.io/badge/integration-Java-007396)](UserService.java)
+[![Pages](https://img.shields.io/badge/demo-GitHub%20Pages-1f883d)](https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/en/)
+[![License](https://img.shields.io/badge/license-see%20LICENSE-blue)](LICENSE)
 
+This repository is a source-code reference for Bazi (Four Pillars) charts and I Ching-related Chinese metaphysics software. Its public contents include static HTML pages, JavaScript logic, Java service interfaces, and product screenshots for Bazi, Five Elements, annual fortune, Da Liu Ren, Qizheng Siyu, and combined charts.
 
-## Core Modules
+> This public repository is not a complete Spring Boot, Docker, or commercial SaaS distribution. Ziwei Doushu and Qimen Dunjia are documented as integration directions; verify algorithm coverage from the actual source and reproducible tests.
 
+## Public Contents
 
-- Bazi chart calculation and interpretation workflow
-- Ziwei Doushu chart and palace analysis
-- Qimen Dunjia divination and strategy interpretation
-- Naming, marriage, wealth, career, health, and annual fortune reports
-- AI-assisted reading generation and content refinement
-- User system, membership, order flow, and report delivery
-- Web product pages, admin management, and API integration foundation
-- Deployable source-code structure for secondary development
+| Area | Files | Scope |
+| --- | --- | --- |
+| Web preview | `index.html`, `index.js`, `astro.js`, `door.js` | Static UI and partial interaction logic |
+| Java interfaces | `*Service.java` | Service contracts for users, orders, chart records, tasks, messaging, and configuration |
+| Product images | `Screenshots/` | Bazi, Five Elements, annual fortune, Da Liu Ren, Qizheng Siyu, and combined chart screens |
+| Documentation | `docs/` | Multilingual GitHub Pages content, architecture, deployment, and responsible-use notes |
 
+## Covered Systems
 
-## Product Scenarios
+- Bazi / Four Pillars chart presentation
+- Heavenly Stems, Earthly Branches, and Five Elements views
+- Annual fortune and combined chart interfaces
+- Da Liu Ren and Qizheng Siyu product screens
+- Ziwei Doushu and Qimen Dunjia extension directions
 
+## Screenshots
 
-- Online Bazi and Ziwei fortune report platforms
-- Paid Chinese astrology and destiny analysis websites
-- AI fortune telling and metaphysics SaaS products
-- WeChat, H5, mobile app, and web-based divination products
-- Traditional culture, I Ching, numerology, and naming service platforms
-- Commercial consultation tools for metaphysics studios
+| Bazi chart | Five Elements | Annual fortune |
+| --- | --- | --- |
+| ![Four Pillars Bazi chart interface](Screenshots/baizhipaipan.png) | ![Bazi Five Elements analysis interface](Screenshots/wuxing.png) | ![Bazi annual fortune interface](Screenshots/liunian.png) |
 
+| Da Liu Ren | Qizheng Siyu | Combined chart |
+| --- | --- | --- |
+| ![Da Liu Ren chart interface](Screenshots/daliuren.png) | ![Qizheng Siyu chart interface](Screenshots/qizhengsiyu.png) | ![Chinese metaphysics combined chart](Screenshots/paipan.png) |
 
-## Suggested Public Scope
+## Local Preview
 
+Serve the repository root with any static file server and open `index.html`. The Java files are interface examples and require implementations, dependencies, configuration, and storage before they can operate as a backend.
 
-Keep source examples, product structure, screenshots, and documentation public. Do not publish real user data, payment keys, API keys, production secrets, private prompts, or private business data. Use `config.example/` for sample configuration only.
-
-
-## Repository Structure
-
+## Repository Layout
 
 ```text
-frontend/               # Web, H5, and product page examples
-backend/                # Service API and business logic examples
-admin/                  # Operations and management dashboard examples
-database/               # Schema examples and migration notes
-config.example/         # Desensitized configuration templates
-docs/                   # GitHub Pages documentation and SEO landing pages
-scripts/                # Deployment and maintenance helper scripts
-tests/                  # Calculation and API validation examples
-.github/workflows/      # CI and GitHub Pages workflows
+.
+|-- index.html / index.js       # Static web entry and interactions
+|-- astro.js / door.js          # Browser-side logic examples
+|-- *Service.java               # Java service interface examples
+|-- Screenshots/                # Chart and analysis screenshots
+`-- docs/                       # Multilingual GitHub Pages documentation
 ```
 
+## FAQ
 
-## Technical Highlights
+### Is this a complete Bazi backend?
 
+No. The public repository mainly contains static pages, JavaScript logic, Java interfaces, and screenshots. It does not contain a complete deployable backend, database migrations, or automated tests.
 
-- Multi-module architecture for metaphysics product delivery
-- Clear separation between calculation logic, interpretation content, user system, and order flow
-- Suitable for AI interpretation, prompt templates, and report-generation pipelines
-- Search-friendly documentation for Bazi, Ziwei, Qimen, I Ching, numerology, and fortune telling source code
-- Designed for secondary development, commercial demos, and private deployment
+### Are complete Ziwei Doushu and Qimen Dunjia algorithms included?
 
+The repository covers them as product and integration directions. Review the actual files and reproducible behavior before relying on any claimed algorithm coverage.
 
-## Documentation
+### Can the project provide medical, legal, or financial advice?
 
-
-- [Project Overview](docs/index.html)
-- [Features](docs/features.html)
-- [Architecture](docs/architecture.html)
-- [Deployment](docs/deployment.html)
-- [Responsible Use](docs/responsible-use.html)
-
-
-## 📸 排盘界面真实截图 / Screenshots
-
-
-![无极八字排盘](Screenshots/wujibazi.png)  
-**无极八字排盘界面 | Bazi Chart**
-
-
-![八字排盘](Screenshots/baizhipaipan.png)  
-**八字排盘界面 | Four Pillars Bazi**
-
-
-![五行分析](Screenshots/wuxing.png)  
-**五行分析界面 | Five Elements Analysis**
-
-
-![流年运势](Screenshots/liunian.png)  
-**流年运势分析 | Annual Luck Analysis**
-
-
-![大六壬排盘](Screenshots/daliuren.png)  
-**大六壬排盘界面 | Da Liuren Chart**
-
-
-![七政四余排盘](Screenshots/qizhengsiyu.png)  
-**七政四余排盘界面 | Qizheng Siyü Chart**
-
-
-![七政四余2](Screenshots/qizheng2.png)  
-**七政四余详细排盘 | Qizheng Detailed**
-
-
-![综合排盘](Screenshots/paipan.png)  
-**综合排盘总览界面 | Overall Divination Chart**
-
+No. It is intended for cultural research and software development, not scientific diagnosis, deterministic prediction, or professional advice.
 
 ## Contact
 
-
-Telegram: `@xuzongbin001`  
-Email: `masterai918@gmail.com`
-
+- Telegram: `@xuzongbin001`
+- Email: `masterai918@gmail.com`
 
 ## License
 
-
-This project is released for evaluation and commercial communication only. See `LICENSE` for details.
+See [LICENSE](LICENSE) for the applicable terms.
