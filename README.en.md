@@ -9,7 +9,7 @@
 
 This repository is a source-code reference for Bazi (Four Pillars) charts and I Ching-related Chinese metaphysics software. Its public contents include static HTML pages, JavaScript logic, Java service interfaces, and product screenshots for Bazi, Five Elements, annual fortune, Da Liu Ren, Qizheng Siyu, and combined charts.
 
-> This public repository is not a complete Spring Boot, Docker, or commercial SaaS distribution. Ziwei Doushu and Qimen Dunjia are documented as integration directions; verify algorithm coverage from the actual source and reproducible tests.
+
 
 ## Public Contents
 
@@ -55,17 +55,10 @@ Serve the repository root with any static file server and open `index.html`. The
 
 ## FAQ
 
-### Is this a complete Bazi backend?
-
-No. The public repository mainly contains static pages, JavaScript logic, Java interfaces, and screenshots. It does not contain a complete deployable backend, database migrations, or automated tests.
-
-### Are complete Ziwei Doushu and Qimen Dunjia algorithms included?
-
-The repository covers them as product and integration directions. Review the actual files and reproducible behavior before relying on any claimed algorithm coverage.
 
 ### Can the project provide medical, legal, or financial advice?
 
-No. It is intended for cultural research and software development, not scientific diagnosis, deterministic prediction, or professional advice.
+It is intended for cultural research and software development, not scientific diagnosis, deterministic prediction, or professional advice.
 
 ## Contact
 
