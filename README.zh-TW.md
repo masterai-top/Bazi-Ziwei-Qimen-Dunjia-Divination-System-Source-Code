@@ -1,96 +1,52 @@
-# 八字紫微奇門遁甲占卜系統源碼
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-[簡體中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+# 八字排盤原始碼與周易易經排盤系統 - 大六壬、七政四餘、紫微斗數、奇門遁甲
 
-本項目是一套面向商業化落地的周易命理、八字排盤、紫微斗數、奇門遁甲、起名測算、運勢報告與 AI 解讀系統源碼，適合用於搭建線上命理測算、付費報告、傳統文化諮詢、AI 占卜與玄學 SaaS 類產品。
+本專案是面向傳統文化數位化研究的**八字排盤原始碼與周易易經排盤系統**。公開內容包含 HTML/JavaScript 網頁與互動邏輯、Java 服務介面，以及八字、五行、流年、大六壬、七政四餘和綜合排盤的真實產品畫面。
 
-## 核心模組
+> 目前不是完整 Spring Boot、Docker 或商業 SaaS 發行包。八字、五行、流年、大六壬與七政四餘有公開畫面；紫微斗數及奇門遁甲屬規劃與整合方向，完整演算法必須依實際原始碼與可重現測試判斷。
 
-- 八字排盤與命理解讀流程
-- 紫微斗數命盤與宮位分析
-- 奇門遁甲起局與策略解讀
-- 起名、婚姻、財運、事業、健康、流年運勢報告
-- AI 輔助解讀生成與內容優化
-- 用戶系統、會員系統、訂單流程與報告交付
-- Web 產品頁、營運後台與 API 對接基礎
-- 適合二次開發與私有化部署的源碼結構
+## 公開功能與證據
 
-## 適用場景
+| 模組 | 公開內容 | 主要檔案 |
+| --- | --- | --- |
+| 八字排盤 | 四柱、干支、五行、流年與綜合命盤介面 | `index.html`、`index.js`、`astro.js` |
+| 五行分析 | 五行設定介面與產品畫面 | `WuXingConfigService.java`、`Screenshots/wuxing.png` |
+| 排盤服務 | 排盤記錄、任務與結果介面 | `PanRecordService.java`、`MoiraTask*Service.java` |
+| 大六壬 | 大六壬排盤產品畫面 | `Screenshots/daliuren.png` |
+| 七政四餘 | 七政四餘與詳細排盤畫面 | `qizhengsiyu.png`、`qizheng2.png` |
+| 使用者與訂單 | 使用者、會員與訂單介面 | `UserService.java`、`UserOrderService.java` |
+| 紫微/奇門 | 產品規劃與整合方向 | 完整演算法需另行核查 |
 
-- 線上八字、紫微、奇門測算平台
-- 付費命理報告與傳統文化諮詢網站
-- AI 算命、AI 命理、AI 占卜產品
-- 微信、H5、App、小程序、Web 端測算產品
-- 周易、起名、風水、數字能量、命理工作室工具
-- 面向商業轉化的玄學 SaaS 系統
+## 術數與技術範圍
 
-## 公開倉庫建議範圍
+- **八字與四柱**：出生資訊、天干地支、五行、流年及綜合命盤介面。
+- **周易與易經排盤**：多術數軟體介面、互動和服務介面參考，不代表全部易學演算法。
+- **大六壬與七政四餘**：公開真實產品畫面，完整算法與測試需依實際程式碼驗證。
+- **紫微斗數與奇門遁甲**：保留為產品整合方向，不宣稱目前已公開完整排盤算法。
+- **技術**：HTML、JavaScript、Vue/Element Plus 資源與 Java 服務介面示例。
 
-為了兼顧 GitHub 搜索展示與商業安全，建議公開產品結構、部分源碼示例、截圖與文檔；不要公開真實用戶資料、支付密鑰、API 密鑰、生產配置與私密業務資料。使用 `config.example/` 放置脫敏配置示例。
+## 真實產品畫面
 
-## 項目結構
+| 八字排盤 | 五行分析 | 流年運勢 |
+| --- | --- | --- |
+| ![四柱八字排盤原始碼產品畫面](Screenshots/baizhipaipan.png) | ![八字五行分析系統畫面](Screenshots/wuxing.png) | ![八字流年運勢排盤畫面](Screenshots/liunian.png) |
 
-```text
-frontend/               # Web、H5 與產品頁示例
-backend/                # 服務 API 與業務邏輯示例
-admin/                  # 營運後台示例
-database/               # 數據庫結構與遷移說明
-config.example/         # 脫敏配置模板
-docs/                   # GitHub Pages 文檔與 SEO 落地頁
-scripts/                # 部署與維護輔助腳本
-tests/                  # 排盤、接口與報告驗證示例
-.github/workflows/      # CI 與 GitHub Pages 工作流
-```
+| 大六壬 | 七政四餘 | 周易綜合排盤 |
+| --- | --- | --- |
+| ![大六壬排盤原始碼產品畫面](Screenshots/daliuren.png) | ![七政四餘排盤系統畫面](Screenshots/qizhengsiyu.png) | ![周易易經綜合排盤系統畫面](Screenshots/paipan.png) |
 
-## 技術亮點
+## 文件與使用邊界
 
-- 多模組架構，適合命理產品商業化交付
-- 排盤算法、解讀內容、用戶系統、訂單流程分層清晰
-- 適合接入 AI 解讀、提示詞模板與報告生成流程
-- 覆蓋八字、紫微、奇門、周易、起名、AI 命理等搜索詞
-- 適合二次開發、產品演示與私有化部署
+- [八字排盤與周易易經原始碼說明](docs/bazi-zhouyi-source-code.md)
+- [大六壬與七政四餘排盤說明](docs/daliuren-qizhengsiyu.md)
+- [紫微斗數與奇門遁甲整合範圍](docs/ziwei-qimen-integration.md)
+- [繁體中文圖文頁](https://masterai-top.github.io/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code/zh-tw/)
+- [負責任使用](RESPONSIBLE-USE.md)
 
-## 文檔
+Java 檔案是服務介面示例，需要補充實作、依賴、設定和資料儲存後才能作為後端。傳統術數內容面向文化研究與軟體開發，不構成醫療、法律、投資或其他專業建議。
 
-- [項目首頁](docs/index.html)
-- [功能介紹](docs/features.html)
-- [架構說明](docs/architecture.html)
-- [部署指南](docs/deployment.html)
-- [合規使用](docs/responsible-use.html)
+## 聯絡
 
-## 📸 排盘界面真实截图 / Screenshots
-
-![无极八字排盘](Screenshots/wujibazi.png)  
-**无极八字排盘界面 | Bazi Chart**
-
-![八字排盘](Screenshots/baizhipaipan.png)  
-**八字排盘界面 | Four Pillars Bazi**
-
-![五行分析](Screenshots/wuxing.png)  
-**五行分析界面 | Five Elements Analysis**
-
-![流年运势](Screenshots/liunian.png)  
-**流年运势分析 | Annual Luck Analysis**
-
-![大六壬排盘](Screenshots/daliuren.png)  
-**大六壬排盘界面 | Da Liuren Chart**
-
-![七政四余排盘](Screenshots/qizhengsiyu.png)  
-**七政四余排盘界面 | Qizheng Siyü Chart**
-
-![七政四余2](Screenshots/qizheng2.png)  
-**七政四余详细排盘 | Qizheng Detailed**
-
-![综合排盘](Screenshots/paipan.png)  
-**综合排盘总览界面 | Overall Divination Chart**
-
-
-
-## 聯繫方式
-
-Telegram: `@xuzongbin001`  
-Email: `masterai918@gmail.com`
-
-## 授權說明
-
-本項目僅用於評估、商務溝通與授權合作。詳情請查看 `LICENSE`。
+- Telegram：`@xuzongbin001`
+- Email：`masterai918@gmail.com`
